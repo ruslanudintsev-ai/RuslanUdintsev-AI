@@ -8,7 +8,7 @@ I am a **hands-on product owner / AI-agent operator**, not a self-described seni
 
 **Interested in:** AI Agent Operator · Junior AI Automation Specialist · AI Development Coordinator · AI-assisted QA · remote/project opportunities.
 
-**[Русский](README.ru.md)** · **[Project ecosystem](ECOSYSTEM.md)** · **[8 case studies](CASE_STUDIES.md)** · **[How I manage agents](AGENT_OPERATIONS.md)**
+**[Русский](README.ru.md)** · **[Skill system](SKILLS.md)** · **[Project ecosystem](ECOSYSTEM.md)** · **[8 case studies](CASE_STUDIES.md)** · **[Agent workflow](AGENT_OPERATIONS.md)**
 
 ---
 
@@ -19,6 +19,16 @@ I am a **hands-on product owner / AI-agent operator**, not a self-described seni
 | 26 GitHub repositories reviewed (including private, experimental and archived work) | Parallel Codex workstreams, scoped tasks, PR/CI review and release gates | [iPhone/Nginx field report](https://github.com/ruslanudintsev-ai/ios-cellular-nginx-http2-fix) · [OpenAI Codex product feedback](https://github.com/openai/codex/issues/40142#issuecomment-6492738160) |
 
 *Repository count does not equal launched products, personal code authorship or business results. Snapshot: 29 October 2026.*
+
+## Skill system: what I can actually do
+
+| Hands-on operational skills | AI-assisted delivery experience | Still learning |
+| :---: | :---: | :---: |
+| **15** | **9** | **6** |
+
+**Strongest focus:** agent task design, multi-agent coordination, GitHub PR/CI oversight, product quality and release decisions. **Agent-assisted experience:** LLM APIs, structured model outputs, Telegram bots, backend and deployment tooling. **Not yet claiming independent expertise:** Python backend engineering, RAG, LangChain, LangGraph, ATS integration or ML engineering.
+
+[**Browse all 30 skills with levels, scope and evidence →**](SKILLS.md) · [По-русски](SKILLS.ru.md)
 
 ## Selected cases
 
