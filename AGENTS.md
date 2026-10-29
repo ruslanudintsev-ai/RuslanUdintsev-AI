@@ -19,7 +19,9 @@ This repository is a **public professional portfolio**, not a development or dep
 5. For numerical evidence, provide the test/environment/snapshot meaning; never turn QA counts into live metrics.
 6. Publish a public proof link only if public access is verified; otherwise say "private evidence available for a sanitized walkthrough."
 7. Use the structure in [CASE_TEMPLATE.md](CASE_TEMPLATE.md), update [CASE_STUDIES.md](CASE_STUDIES.md), and adjust navigation on [README.md](README.md) and [README.ru.md](README.ru.md) as needed.
-8. Review all files for privacy leakage; verify links and Markdown before finalizing.
+8. Update skills through the canonical [skills/registry.json](skills/registry.json): distinguish personally demonstrated operation (`practical`), delivery via AI coding agents (`agent_assisted`), and learning (`learning`). Do not present learning as experience. Keep [SKILLS.md](SKILLS.md) and [SKILLS.ru.md](SKILLS.ru.md) synchronized.
+9. Run `python scripts/check_skills.py` to validate the registry and both language pages before finishing.
+10. Review all files for privacy leakage; verify links and Markdown before finalizing.
 
 ## Profile navigation
 
@@ -28,6 +30,9 @@ This repository is a **public professional portfolio**, not a development or dep
 - English project map: `ECOSYSTEM.md`
 - Russian project map: `ECOSYSTEM.ru.md`
 - Case studies: `CASE_STUDIES.md`
+- Verified skills matrix: `SKILLS.md` and `SKILLS.ru.md`
+- Canonical machine-readable skills: `skills/registry.json`
+- Registry validation: `scripts/check_skills.py`
 - Coordination workflow: `AGENT_OPERATIONS.md`
 - Evidence and privacy: `EVIDENCE_AND_PRIVACY.md`
 
