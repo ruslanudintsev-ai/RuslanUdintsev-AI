@@ -8,13 +8,13 @@ I am a **hands-on product owner / AI-agent operator**, not a self-described seni
 
 **Available for:** 100% remote AI Agent Operator · Junior AI Automation · AI Development Coordination · AI-assisted QA roles, including paid scoped projects. **No mandatory office/hybrid schedule.**
 
-**[Hire me / recruiter brief](HIRE_ME.md)** · **[Русский](README.ru.md)** · **[Skill system](SKILLS.md)** · **[Project ecosystem](ECOSYSTEM.md)** · **[9 case studies](CASE_STUDIES.md)** · **[Agent workflow](AGENT_OPERATIONS.md)**
+**[Hire me / recruiter brief](HIRE_ME.md)** · **[Русский](README.ru.md)** · **[Skill system](SKILLS.md)** · **[Project ecosystem](ECOSYSTEM.md)** · **[10 case studies](CASE_STUDIES.md)** · **[Agent workflow](AGENT_OPERATIONS.md)**
 
 ## For a hiring manager — what I can deliver
 
 **Give me a bounded AI-assisted development task, and I can organize the work:** translate it into acceptance criteria, coordinate coding agents, review PRs and CI evidence, surface risks, and provide a clear handoff with what is verified versus still unproven.
 
-**Examples to inspect:** [public Nginx incident investigation](https://github.com/ruslanudintsev-ai/ios-cellular-nginx-http2-fix) · [AI-agent operating playbook](AGENT_OPERATIONS.md) · [case studies with evidence limits](CASE_STUDIES.md).
+**Examples to inspect:** [KursoPilot — operator-reported public release](https://kursopilot.ru/) · [public Nginx incident investigation](https://github.com/ruslanudintsev-ai/ios-cellular-nginx-http2-fix) · [AI-agent operating playbook](AGENT_OPERATIONS.md) · [case studies with evidence limits](CASE_STUDIES.md).
 
 **I welcome a practical, scoped trial assignment.** I will state openly which parts I implement myself and which are delivered with AI coding agents.
 
@@ -46,11 +46,11 @@ I am a **hands-on product owner / AI-agent operator**, not a self-described seni
 | **Production incident** | Safari/iPhone mobile-network HTTPS rendering issue, investigated with scoped Nginx experiments | [Public technical case study](https://github.com/ruslanudintsev-ai/ios-cellular-nginx-http2-fix); root cause remains uncertain |
 | **Django catalogue recovery** | Coordinate reproducible regeneration and QA for a large static-route catalogue | **217,184** rendered test routes and **216,076** sitemap URLs in a *recovery artifact*, **not** proof of deployment/indexation |
 | **AI Telegram product** | Design strict AI-call validation, fake-mode testing, cost and privacy safeguards | End-to-end acceptance in **fake mode**; no claim of paid music launch |
-| **Source-aware content** | Separate verified facts, draft records and publication gates | KursoPilot and related experiments; no unsupported publication claims |
+| **KursoPilot — AI-operated web product** | Coordinated catalogue, editorial content, source quality gates, CI and first public release | 28 Oct 2026: operator reports 10 indexable-eligible URLs / 29 noindex, smoke 16/16; indexing and independent live check unverified · [Case 10](CASE_STUDIES.md#case-10--kursopilot-agent-assisted-public-release-of-a-course-catalogue) |
 | **Research integrity** | Preserve negative evidence and stop AI/ML experiments without sufficient signal | Paused LLM trading research; [public educational DQN experiments](https://github.com/ruslanudintsev-ai/dqn-beginner-rainbow-trading) |
 | **Historical content automation** | Operated earlier pet-food websites with owner-reported automated content filling | Historical 2024 publications; original pipeline source/coverage not independently verified |
 
-[**Read all nine detailed cases →**](CASE_STUDIES.md)
+[**Read all 10 detailed cases →**](CASE_STUDIES.md)
 
 ## My operating model
 
