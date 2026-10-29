@@ -143,6 +143,20 @@
 
 **Limit.** Public feedback is **not** evidence of endorsement, roadmap inclusion or employment by OpenAI.
 
+## Case 09 — Historical pet-food websites with automated content population (owner-reported)
+
+**Products.** Two historical pet-food content websites: `korm-dlya-zhivotnyh.ru` and `luchshiekormadlyasobak.ru`. This is a **past / discontinued direction**, not an active deployment or a newly launched business.
+
+**Problem.** Maintaining niche content sites manually (topics, articles, updates and internal linking) does not scale well for an independent publisher.
+
+**My role.** Site owner and operator. I report that an **automatic site-content filling workflow was used** in this earlier project. The exact scripts, platform/plugin configuration, implementation authorship and automation coverage have not yet been independently recovered, so this is clearly an **owner-reported historical workflow**.
+
+**Evidence and distinction.** Historical articles and category/ranking pages from September 2024 are documented in private project research. A later master planning document specified an **aspirational, broader** autopilot: sources/feeds → normalization → content generation/updating → WordPress/API publishing → internal links → search monitoring → reporting. **That proposed end-to-end architecture must not be represented as fully implemented historically.** No matching source repository or reproducible implementation proof is currently available on GitHub.
+
+**Learning.** This was an early practical encounter with automated content operations, editorial scale and the need to balance automation against content quality, provenance and actual search/affiliate economics.
+
+**Limitations.** Past automation is based on the owner's firsthand report; exact throughput, technologies, degree of autonomy and traffic/revenue effect are **not verified**. These domains should not be presented as active products, and no claim is made that AI/LLMs powered the original automation. No new development or domain renewal is implied.
+
 ---
 
 ## Hiring-relevant capabilities
