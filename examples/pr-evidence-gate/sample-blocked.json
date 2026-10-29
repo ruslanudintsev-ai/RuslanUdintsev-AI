@@ -1,0 +1,31 @@
+{
+  "pr_number": 43,
+  "commit": "abcdef0123456789abcdef0123456789abcdef01",
+  "actor": "codex[bot]",
+  "allowed_paths": [
+    "docs/",
+    "src/seo/"
+  ],
+  "changed_files": [
+    "src/seo/urls.py",
+    "deployment/prod.yml"
+  ],
+  "checks": [
+    {
+      "name": "Unit tests",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Security checks",
+      "status": "in_progress",
+      "conclusion": null
+    }
+  ],
+  "events": [
+    {
+      "kind": "comment",
+      "author": "reviewer"
+    }
+  ]
+}
