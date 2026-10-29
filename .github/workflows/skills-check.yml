@@ -20,6 +20,7 @@ on:
       - 'ECOSYSTEM.ru.md'
       - 'scripts/check_skills.py'
       - 'scripts/check_portfolio_links.py'
+      - 'examples/pr-evidence-gate/**'
       - '.github/workflows/skills-check.yml'
   pull_request:
     paths:
@@ -40,6 +41,7 @@ on:
       - 'ECOSYSTEM.ru.md'
       - 'scripts/check_skills.py'
       - 'scripts/check_portfolio_links.py'
+      - 'examples/pr-evidence-gate/**'
       - '.github/workflows/skills-check.yml'
   workflow_dispatch:
 
@@ -60,3 +62,9 @@ jobs:
         run: python scripts/check_skills.py
       - name: Validate portfolio navigation and link privacy
         run: python scripts/check_portfolio_links.py
+      - name: Unit-test offline PR evidence gate
+        run: python -m unittest discover -s examples/pr-evidence-gate/tests -v
+      - name: Smoke-test both synthetic snapshots
+        run: |
+          python examples/pr-evidence-gate/triage.py --input examples/pr-evidence-gate/sample-approved.json
+          python examples/pr-evidence-gate/triage.py --input examples/pr-evidence-gate/sample-blocked.json
