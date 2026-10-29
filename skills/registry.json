@@ -1,0 +1,407 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-29",
+  "owner": "ruslanudintsev-ai",
+  "levels": {
+    "practical": {
+      "ru": "Практикую лично",
+      "en": "Hands-on operational",
+      "definition_ru": "Выполняю в своей роли: ставлю задачи, контролирую, тестирую, принимаю решения.",
+      "definition_en": "I perform this as an owner/operator: scope work, verify results and make decisions."
+    },
+    "agent_assisted": {
+      "ru": "Реализовано с ИИ-агентами",
+      "en": "AI-assisted delivery",
+      "definition_ru": "Функция реализовывалась в проектах с агентами. Могу объяснить задачу и проверку, но не заявляю самостоятельную реализацию всех компонентов.",
+      "definition_en": "Implemented in agent-assisted projects. I can describe scope and validation, but not claim independent implementation expertise."
+    },
+    "learning": {
+      "ru": "Изучаю / подтверждений пока нет",
+      "en": "Learning / not independently evidenced",
+      "definition_ru": "Целевое направление: пока не подтверждён самостоятельный рабочий опыт.",
+      "definition_en": "An explicit learning goal without verified independent professional delivery."
+    }
+  },
+  "categories": [
+    {
+      "id": "agent_ops",
+      "ru": "Управление ИИ-агентами",
+      "en": "AI agent operations"
+    },
+    {
+      "id": "llm_product",
+      "ru": "LLM-продукты и интеграции",
+      "en": "LLM products and integrations"
+    },
+    {
+      "id": "quality",
+      "ru": "QA, инфраструктура и безопасность релизов",
+      "en": "QA, infrastructure and release safety"
+    },
+    {
+      "id": "product",
+      "ru": "Продукты, данные и исследовательская работа",
+      "en": "Product, data and research"
+    },
+    {
+      "id": "growth",
+      "ru": "Техническое развитие",
+      "en": "Technical growth"
+    }
+  ],
+  "skills": [
+    {
+      "id": "agent-task-design",
+      "category": "agent_ops",
+      "title_ru": "Постановка задач для ИИ-агентов",
+      "title_en": "Agent task briefing",
+      "level": "practical",
+      "example_ru": "ТЗ, критерии приёмки, ограничения и отчётность для Codex",
+      "example_en": "Task scope, acceptance criteria and evidence requirements for Codex",
+      "evidence": [
+        "AGENT_OPERATIONS.md",
+        "CASE_STUDIES.md"
+      ]
+    },
+    {
+      "id": "multi-agent-coordination",
+      "category": "agent_ops",
+      "title_ru": "Координация нескольких Codex",
+      "title_en": "Multi-agent workstream coordination",
+      "level": "practical",
+      "example_ru": "Разделение DATA / DESIGN, управление пересечениями и зависимостями",
+      "example_en": "Separated DATA / DESIGN workstreams, dependencies and conflict control",
+      "evidence": [
+        "CASE_STUDIES.md"
+      ]
+    },
+    {
+      "id": "github-ops",
+      "category": "agent_ops",
+      "title_ru": "GitHub Issues, PR, ветки и worktree",
+      "title_en": "GitHub Issues, PRs and branch discipline",
+      "level": "practical",
+      "example_ru": "Контроль задач, PR и состояния изменений; реализация может быть агентской",
+      "example_en": "Tracking tasks, PRs and changes; implementation may be agent-authored",
+      "evidence": [
+        "AGENT_OPERATIONS.md"
+      ]
+    },
+    {
+      "id": "ci-review",
+      "category": "agent_ops",
+      "title_ru": "Анализ CI и отчётов о тестах",
+      "title_en": "CI and test-evidence review",
+      "level": "practical",
+      "example_ru": "Проверка статуса на конкретном SHA, различение merge/deploy",
+      "example_en": "Reviewing SHA-specific checks and keeping merge separate from deploy",
+      "evidence": [
+        "AGENT_OPERATIONS.md",
+        "CASE_STUDIES.md"
+      ]
+    },
+    {
+      "id": "release-gates",
+      "category": "agent_ops",
+      "title_ru": "Релизные ограничения и rollback-планирование",
+      "title_en": "Release gates and rollback planning",
+      "level": "practical",
+      "example_ru": "Решения о безопасных изменениях и ограничение опасных операций",
+      "example_en": "Approval boundaries for risky actions and rollback-aware decisions",
+      "evidence": [
+        "AGENT_OPERATIONS.md"
+      ]
+    },
+    {
+      "id": "ai-prompt-briefs",
+      "category": "agent_ops",
+      "title_ru": "Промптинг и уточнение требований",
+      "title_en": "Prompt/task iteration",
+      "level": "practical",
+      "example_ru": "Итерации с агентами по результатам и ошибкам",
+      "example_en": "Iterating on agent tasks based on errors and QA results",
+      "evidence": [
+        "CASE_STUDIES.md"
+      ]
+    },
+    {
+      "id": "llm-product-workflows",
+      "category": "llm_product",
+      "title_ru": "Проектирование LLM-сценариев",
+      "title_en": "LLM product flow design",
+      "level": "practical",
+      "example_ru": "Планирование пайплайна вход → структура → проверка → выход",
+      "example_en": "Product planning for input → structure → validation → output",
+      "evidence": [
+        "CASE_STUDIES.md"
+      ]
+    },
+    {
+      "id": "model-cost-safety",
+      "category": "llm_product",
+      "title_ru": "Контроль расходов на API моделей",
+      "title_en": "LLM cost-safety rules",
+      "level": "practical",
+      "example_ru": "Платные вызовы только по явному разрешению, fake-mode и лимиты",
+      "example_en": "Opt-in paid API requests, fake-mode and limits",
+      "evidence": [
+        "CASE_STUDIES.md"
+      ]
+    },
+    {
+      "id": "llm-api-integration",
+      "category": "llm_product",
+      "title_ru": "LLM API: OpenRouter и DeepSeek",
+      "title_en": "LLM API integrations: OpenRouter / DeepSeek",
+      "level": "agent_assisted",
+      "example_ru": "Реализованные агентами Telegram-продукты; личная самостоятельная API-разработка не заявлена",
+      "example_en": "Integrated in agent-built Telegram prototypes; independent backend implementation not claimed",
+      "evidence": [
+        "CASE_STUDIES.md"
+      ]
+    },
+    {
+      "id": "structured-llm-json",
+      "category": "llm_product",
+      "title_ru": "Структурированные ответы LLM и валидация",
+      "title_en": "Structured LLM outputs and validation",
+      "level": "agent_assisted",
+      "example_ru": "JSON-контракты и проверка генераций в ботах",
+      "example_en": "Structured JSON contracts and generation validation in bot prototypes",
+      "evidence": [
+        "CASE_STUDIES.md"
+      ]
+    },
+    {
+      "id": "telegram-bot-products",
+      "category": "llm_product",
+      "title_ru": "ИИ Telegram-боты",
+      "title_en": "AI Telegram bot workflows",
+      "level": "agent_assisted",
+      "example_ru": "Музыкальный бот: fake-mode E2E; бот ответов: MVP с ограничениями оплаты",
+      "example_en": "Music bot fake-mode E2E and reply bot MVP with payment safeguards",
+      "evidence": [
+        "CASE_STUDIES.md",
+        "ECOSYSTEM.md"
+      ]
+    },
+    {
+      "id": "api-retries-idempotency",
+      "category": "llm_product",
+      "title_ru": "Повторы, идемпотентность и баланс в ботах",
+      "title_en": "Retries, idempotency and balance handling",
+      "level": "agent_assisted",
+      "example_ru": "Функции реализованы через агентов и проверялись на тестовых сценариях",
+      "example_en": "Agent-implemented functions tested in prototype scenarios",
+      "evidence": [
+        "CASE_STUDIES.md"
+      ]
+    },
+    {
+      "id": "agent-integration",
+      "category": "llm_product",
+      "title_ru": "Интеграция инструментов и внешних сервисов",
+      "title_en": "External service/tool integration",
+      "level": "agent_assisted",
+      "example_ru": "Сценарии Telegram, API и GitHub; степень автоматизации зависит от проекта",
+      "example_en": "Telegram/API/GitHub workflows; autonomy varies by project",
+      "evidence": [
+        "ECOSYSTEM.md",
+        "AGENT_OPERATIONS.md"
+      ]
+    },
+    {
+      "id": "nginx-incident",
+      "category": "quality",
+      "title_ru": "Диагностика проблем HTTPS/Nginx",
+      "title_en": "HTTPS/Nginx incident investigation",
+      "level": "practical",
+      "example_ru": "Реальный полевой кейс с iPhone, проверкой HTTP/2 и оговорками о причине",
+      "example_en": "Public field report on iPhone, HTTP/2 tests and causal uncertainty",
+      "evidence": [
+        "https://github.com/ruslanudintsev-ai/ios-cellular-nginx-http2-fix"
+      ]
+    },
+    {
+      "id": "mobile-browser-qa",
+      "category": "quality",
+      "title_ru": "Мобильная проверка интерфейсов",
+      "title_en": "Mobile/browser verification",
+      "level": "practical",
+      "example_ru": "Сверка поведения сайта на устройствах и в разных сетях",
+      "example_en": "Checking site behavior across devices and networks",
+      "evidence": [
+        "CASE_STUDIES.md"
+      ]
+    },
+    {
+      "id": "production-status-qa",
+      "category": "quality",
+      "title_ru": "Различение теста, staging и production",
+      "title_en": "Test/staging/production status discipline",
+      "level": "practical",
+      "example_ru": "Точные статусы и ограничения для разных окружений",
+      "example_en": "Explicit environments and honest status reporting",
+      "evidence": [
+        "AGENT_OPERATIONS.md"
+      ]
+    },
+    {
+      "id": "ci-workflow-setup",
+      "category": "quality",
+      "title_ru": "CI/CD с GitHub Actions",
+      "title_en": "GitHub Actions CI/CD pipelines",
+      "level": "agent_assisted",
+      "example_ru": "Работаю с результатами CI; настройка технических workflow с участием агентов",
+      "example_en": "Review CI results; technical workflow implementations are agent-assisted",
+      "evidence": [
+        "CASE_STUDIES.md"
+      ]
+    },
+    {
+      "id": "docker-cloudflare",
+      "category": "quality",
+      "title_ru": "Docker, Cloudflare, серверные развёртывания",
+      "title_en": "Docker, Cloudflare and deployment environments",
+      "level": "agent_assisted",
+      "example_ru": "Опыт проектной эксплуатации с агентами; без заявления уровня DevOps-инженера",
+      "example_en": "Agent-assisted project operations; not claiming DevOps engineer proficiency",
+      "evidence": [
+        "ECOSYSTEM.md"
+      ]
+    },
+    {
+      "id": "backend-frameworks",
+      "category": "quality",
+      "title_ru": "Laravel / Django / Astro, веб-стек",
+      "title_en": "Laravel / Django / Astro web stacks",
+      "level": "agent_assisted",
+      "example_ru": "Постановка задач и приёмка проектов на разных стеках",
+      "example_en": "Scoping and acceptance across agent-built stacks",
+      "evidence": [
+        "CASE_STUDIES.md",
+        "ECOSYSTEM.md"
+      ]
+    },
+    {
+      "id": "source-provenance",
+      "category": "product",
+      "title_ru": "Источники данных, проверка фактов",
+      "title_en": "Source provenance and factual checks",
+      "level": "practical",
+      "example_ru": "Отделение неподтверждённых фактов от проверенных перед публикацией",
+      "example_en": "Keeping reported data separate from verified data before publication",
+      "evidence": [
+        "CASE_STUDIES.md"
+      ]
+    },
+    {
+      "id": "seo-catalog-qa",
+      "category": "product",
+      "title_ru": "Техническое SEO и QA больших каталогов",
+      "title_en": "Technical SEO and large-catalogue QA",
+      "level": "practical",
+      "example_ru": "Sitemap, canonical, маршруты, индексационные ограничения",
+      "example_en": "Sitemaps, canonicals, routes and indexing safeguards",
+      "evidence": [
+        "CASE_STUDIES.md"
+      ]
+    },
+    {
+      "id": "product-prioritization",
+      "category": "product",
+      "title_ru": "Продуктовое управление и приоритизация",
+      "title_en": "Product ownership and prioritization",
+      "level": "practical",
+      "example_ru": "Ограничение затрат и приоритетные задачи вместо бессрочной разработки",
+      "example_en": "Cost-aware prioritization and explicit stopping decisions",
+      "evidence": [
+        "ECOSYSTEM.md"
+      ]
+    },
+    {
+      "id": "research-integrity",
+      "category": "product",
+      "title_ru": "Исследования, фиксация ошибок и стоп-критерии",
+      "title_en": "Research discipline and stop rules",
+      "level": "practical",
+      "example_ru": "Остановка экспериментов без доказательств преимущества",
+      "example_en": "Stopping experimental research without reliable positive evidence",
+      "evidence": [
+        "CASE_STUDIES.md"
+      ]
+    },
+    {
+      "id": "rl-project-exposure",
+      "category": "product",
+      "title_ru": "Обучение с подкреплением: DQN/Rainbow",
+      "title_en": "Reinforcement learning: DQN/Rainbow exposure",
+      "level": "agent_assisted",
+      "example_ru": "Учебные эксперименты, не доказательство самостоятельной ML-экспертизы",
+      "example_en": "Educational experiments, not independent ML engineering expertise",
+      "evidence": [
+        "https://github.com/ruslanudintsev-ai/dqn-beginner-rainbow-trading"
+      ]
+    },
+    {
+      "id": "python-independent",
+      "category": "growth",
+      "title_ru": "Самостоятельный Python и back-end",
+      "title_en": "Independent Python and backend implementation",
+      "level": "learning",
+      "example_ru": "Изучаю чтение, отладку и реализацию без полного делегирования агентам",
+      "example_en": "Learning to read, debug and implement without full agent delegation",
+      "evidence": []
+    },
+    {
+      "id": "rag",
+      "category": "growth",
+      "title_ru": "RAG и векторный поиск",
+      "title_en": "RAG and vector search",
+      "level": "learning",
+      "example_ru": "Нет подтверждённого завершённого RAG-проекта",
+      "example_en": "No verified completed RAG implementation",
+      "evidence": []
+    },
+    {
+      "id": "langchain",
+      "category": "growth",
+      "title_ru": "LangChain",
+      "title_en": "LangChain",
+      "level": "learning",
+      "example_ru": "Нет подтверждённого производственного опыта",
+      "example_en": "No verified production experience",
+      "evidence": []
+    },
+    {
+      "id": "langgraph",
+      "category": "growth",
+      "title_ru": "LangGraph",
+      "title_en": "LangGraph",
+      "level": "learning",
+      "example_ru": "В музыкальном проекте явно не использовался; не заявляем практику",
+      "example_en": "Not used in the music workflow; no hands-on claim",
+      "evidence": []
+    },
+    {
+      "id": "ats",
+      "category": "growth",
+      "title_ru": "Интеграции с ATS / HR-системами",
+      "title_en": "ATS / recruiting platform integrations",
+      "level": "learning",
+      "example_ru": "Похожий продукт можно спроектировать, но завершённой интеграции пока нет",
+      "example_en": "Can scope such a project; no completed ATS integration",
+      "evidence": []
+    },
+    {
+      "id": "ml-engineering",
+      "category": "growth",
+      "title_ru": "Самостоятельная ML/Data Science разработка",
+      "title_en": "Independent ML/Data Science engineering",
+      "level": "learning",
+      "example_ru": "Есть учебные эксперименты, нет подтверждённой самостоятельной разработки ML-систем",
+      "example_en": "Some educational experiments; independent ML system delivery not verified",
+      "evidence": []
+    }
+  ]
+}
