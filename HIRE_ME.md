@@ -46,7 +46,7 @@ I have **11 years of service in the Russian fire/emergency response system**, al
 
 **My contribution:** define scope and source-quality constraints, coordinate Gemini/Codex/ChatGPT, request CI/browser verification and approve a bounded release. **Recorded result (28 Oct 2026, operator report):** 10 pages eligible for search indexing, 29 noindex, post-deploy smoke **16/16 PASS**. **Limit:** public HTTP could not be independently checked in this review; actual search indexing, traffic and sales have not been established. [Case 10](CASE_STUDIES.md#case-10--kursopilot-agent-assisted-public-release-of-a-course-catalogue) · [KursoPilot](https://kursopilot.ru/).
 
-More work: [all 10 cases](CASE_STUDIES.md) · [project ecosystem](ECOSYSTEM.md).
+More work: [all 11 cases](CASE_STUDIES.md) · [GitHub agent coordination and diagrams](docs/CASE_MULTI_AGENT_GITHUB.md) · [project ecosystem](ECOSYSTEM.md).
 
 ## A realistic paid test task
 
