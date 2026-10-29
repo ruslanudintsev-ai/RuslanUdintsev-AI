@@ -53,6 +53,14 @@ Release policy: [draft only / review required / authorized deploy path]
 Rollback: [pre-approved reversible procedure]
 ```
 
+## Independent second-chat review
+
+A separate ChatGPT working context can evaluate a builder's **current** Draft PR, post exact-SHA findings through GitHub, request fixes, and re-check the revised commit. The builder must not treat its own report as external verification. The human owner still controls document acceptance, merges and deployment.
+
+This pattern was recorded during a private API-integration documentation handoff: an outdated evidence-summary stage was corrected after cross-chat review; an approximate Graphviz view **did not** count as validated GitHub Mermaid rendering. The underlying source and comments remain private; no public end-to-end integration claim is made.
+
+**[Read the bilingual, sanitized independent-review playbook](docs/INDEPENDENT_AGENT_REVIEW.md)** · **[Русская версия](docs/INDEPENDENT_AGENT_REVIEW.ru.md)**.
+
 ## Verification ladder
 
 1. **Proposed:** a task, issue or idea exists.

@@ -18,7 +18,7 @@ I turn a product goal into a **testable AI-assisted development workflow**: clea
 
 **What I personally do:** scope tasks, coordinate agents, run practical checks, review results and make product/acceptance decisions. **AI-assisted implementation is credited to the tools;** I do not claim independent senior Python/backend expertise.
 
-[**Runnable offline PR/CI triage demo**](examples/pr-evidence-gate/README.md) (Python stdlib, synthetic data, 13 unit tests; not a production release gate)
+[**Independent AI-chat review playbook**](docs/INDEPENDENT_AGENT_REVIEW.md) — real human-coordinated builder/reviewer feedback loop (sanitized, private evidence) · [Runnable offline PR/CI triage demo](examples/pr-evidence-gate/README.md) (synthetic inputs, 13 tests; not a live release gate).
 
 [Skills by evidence](SKILLS.md) · [How I work](AGENT_OPERATIONS.md) · [Full project map](ECOSYSTEM.md) · [Русская страница для работодателей](HIRE_ME.ru.md)
 
