@@ -8,7 +8,7 @@ I am a **hands-on product owner / AI-agent operator**, not a self-described seni
 
 **Available for:** 100% remote AI Agent Operator · Junior AI Automation · AI Development Coordination · AI-assisted QA roles, including paid scoped projects. **No mandatory office/hybrid schedule.**
 
-**[Hire me / recruiter brief](HIRE_ME.md)** · **[Русский](README.ru.md)** · **[Skill system](SKILLS.md)** · **[Project ecosystem](ECOSYSTEM.md)** · **[10 case studies](CASE_STUDIES.md)** · **[Agent workflow](AGENT_OPERATIONS.md)**
+**[Hire me / recruiter brief](HIRE_ME.md)** · **[Русский](README.ru.md)** · **[Skill system](SKILLS.md)** · **[Project ecosystem](ECOSYSTEM.md)** · **[11 case studies](CASE_STUDIES.md)** · **[Agent workflow](AGENT_OPERATIONS.md)**
 
 ## For a hiring manager — what I can deliver
 
@@ -43,6 +43,7 @@ I am a **hands-on product owner / AI-agent operator**, not a self-described seni
 | Case | Problem I helped solve | Evidence and limits |
 | --- | --- | --- |
 | **Multi-agent Laravel operations** | Split one web product into DATA / DESIGN Codex workstreams with task boundaries and CI checks | Internal project workflows; no claim of unrestricted native agent-to-agent chat |
+| **GitHub-mediated Codex / Grok / Cursor coordination** | Keep AI-agent work scoped across PR comments, CI and human release gates | [Sanitized case and two diagrams](docs/CASE_MULTI_AGENT_GITHUB.md); private evidence and no claim of direct AI chat |
 | **Production incident** | Safari/iPhone mobile-network HTTPS rendering issue, investigated with scoped Nginx experiments | [Public technical case study](https://github.com/ruslanudintsev-ai/ios-cellular-nginx-http2-fix); root cause remains uncertain |
 | **Django catalogue recovery** | Coordinate reproducible regeneration and QA for a large static-route catalogue | **217,184** rendered test routes and **216,076** sitemap URLs in a *recovery artifact*, **not** proof of deployment/indexation |
 | **AI Telegram product** | Design strict AI-call validation, fake-mode testing, cost and privacy safeguards | End-to-end acceptance in **fake mode**; no claim of paid music launch |
@@ -50,7 +51,7 @@ I am a **hands-on product owner / AI-agent operator**, not a self-described seni
 | **Research integrity** | Preserve negative evidence and stop AI/ML experiments without sufficient signal | Paused LLM trading research; [public educational DQN experiments](https://github.com/ruslanudintsev-ai/dqn-beginner-rainbow-trading) |
 | **Historical content automation** | Operated earlier pet-food websites with owner-reported automated content filling | Historical 2024 publications; original pipeline source/coverage not independently verified |
 
-[**Read all 10 detailed cases →**](CASE_STUDIES.md)
+[**Read all 11 detailed cases →**](CASE_STUDIES.md)
 
 ## My operating model
 
