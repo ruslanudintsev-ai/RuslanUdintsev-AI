@@ -10,7 +10,7 @@ from urllib.parse import unquote, urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 PAGES = (
     "README.md", "README.ru.md",
-    "HIRE_ME.md", "HIRE_ME.ru.md",
+    "HIRE_ME.md", "HIRE_ME.ru.md", "PROFILE_README.md",
     "ECOSYSTEM.md", "ECOSYSTEM.ru.md",
     "CASE_STUDIES.md", "AGENT_OPERATIONS.md",
 )

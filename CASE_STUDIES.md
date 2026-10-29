@@ -72,7 +72,7 @@
 
 **Evidence.** Private project documentation and CI/QA contracts.
 
-**Limit.** Course-page publication and SEO results were **not** established at the reviewed snapshot.
+**Limit.** This case covers the editorial/source workflow. Individual course-page publication and search-engine indexing were **not** established; a later, limited site release is recorded separately in [Case 10](#case-10--kursopilot-agent-assisted-public-release-of-a-course-catalogue).
 
 ## Case 05 — AI Telegram product: cost, privacy and safe experimentation
 
@@ -123,7 +123,7 @@
 
 **Approach.** Separate project repositories from cross-project decisions, use GitHub Issues/PRs and an aggregated board, keep research/source evidence outside code where appropriate, and use a simple priority and status vocabulary.
 
-**Observed outcome.** A portfolio-level operating model coordinates multiple products and experiments. The account inventory includes **26 repositories at the review date**, but not all are active or released.
+**Observed outcome.** A portfolio-level operating model coordinates multiple products and experiments. A prior reviewed sample covered **26 repositories**; the connected account listed **36 accessible repositories on 29 October 2026**, with recently recovered research repos not individually revalidated. The count is not an outcome metric.
 
 **Evidence.** GitHub account inventory and private portfolio operating documentation.
 
@@ -168,3 +168,23 @@
 **Privacy and credibility:** private source code, credentials, internal URLs, raw logs and customer data are not reproduced. See [evidence & privacy rules](EVIDENCE_AND_PRIVACY.md).
 
 Want a practical test? A suitable interview exercise is a **read-only audit of a sample repository followed by a scoped AI-agent task brief, QA evidence checklist and proposed follow-up**, rather than a claim to implement an entire product unaided.
+
+## Case 10 — KursoPilot: agent-assisted public release of a course catalogue
+
+**Product:** [KursoPilot](https://kursopilot.ru/) — course search and comparison for Russian-language users, built with Astro and TypeScript. The source repository is private.
+
+**Problem.** Turn research, scattered course records and product requirements into a usable online catalogue while controlling source accuracy, AI-assisted content generation, mobile experience and release safety.
+
+**My role.** Product owner and AI-agent coordinator: set priorities and user needs, defined what the catalogue and editorial landing pages should do, separated workstreams and required test evidence and an explicit approval before public release. Coding agents completed substantial technical work.
+
+**Agent workflow.** Gemini handled catalogue/UI and release execution; Codex maintained CI/runner and technical checks; ChatGPT helped coordinate editorial and release constraints. Publication decisions, scope and risk acceptance stayed with the owner. This is **AI-assisted operation with human oversight**, not proof of a fully autonomous production company.
+
+**Recorded release outcome (operator-reported, 28 October 2026):**
+- A constrained public release was reported as `DEPLOY_OK` on exact build SHA `40ab09886913dd2822ea3cd785710ef4fa8df496`.
+- **10 editorial/navigation URLs** were marked eligible for indexing; **29 other routes** remained `noindex`.
+- Post-deploy smoke checks were reported **16/16 PASS**; CI on the release candidate was reported successful.
+- A separate local browser report covered Chromium at 320/390/1440 px; iOS/WebKit was not covered.
+
+**Evidence.** Internal release issue and operational smoke report in the **private** product repository; counts are reported here with date and environment, not linked as though publicly inspectable. The product URL is a public-facing address, but independent external HTTP verification from this portfolio review environment was unavailable.
+
+**Limits.** `INDEXING_ELIGIBLE` does **not** mean indexed; Google/Yandex index coverage, organic traffic, completed sales, affiliate commissions, independent uptime and full automatic ingestion at real-world scale are **not established** by this evidence. A prior local 1,000-record synthetic import test, if any, would not prove 1,000 live verified courses. Individual auto-generated course pages are not mass-indexed by this release. The product continues to evolve.
