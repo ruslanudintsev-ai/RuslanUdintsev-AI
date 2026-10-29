@@ -188,3 +188,19 @@ Want a practical test? A suitable interview exercise is a **read-only audit of a
 **Evidence.** Internal release issue and operational smoke report in the **private** product repository; counts are reported here with date and environment, not linked as though publicly inspectable. The product URL is a public-facing address, but independent external HTTP verification from this portfolio review environment was unavailable.
 
 **Limits.** `INDEXING_ELIGIBLE` does **not** mean indexed; Google/Yandex index coverage, organic traffic, completed sales, affiliate commissions, independent uptime and full automatic ingestion at real-world scale are **not established** by this evidence. A prior local 1,000-record synthetic import test, if any, would not prove 1,000 live verified courses. Individual auto-generated course pages are not mass-indexed by this release. The product continues to evolve.
+
+## Case 11 — GitHub-mediated coordination of Codex, Grok and Cursor
+
+**Problem.** Several AI coding/review tools contributed to one private Django/SEO workflow. Without explicit task scope, CI evidence and distinct release decisions, bot comments could turn into duplicated actions, unrelated bugs could expand a PR and green tests could be mistaken for production readiness.
+
+**My role.** Owner and coordinator: define work boundaries, inspect review findings, confirm an exact commit's checks, separate follow-up scope and keep merge/deploy decisions independent of agent-generated text.
+
+**Observed example (29 October 2026).** A review found a potential **false-positive sitemap validation** in a private PR. The agent-authored revision introduced XML parsing, exact expected-inventory checks and regression cases. **Three CI workflows succeeded on the corrected commit**, while the PR stayed unmerged/undeployed. A separate client-side link-building concern was isolated in a different draft PR. A supplied screenshot also showed an agent **identifying one notification as an echo of its own comment** and not treating it as new work.
+
+**Operating model.** GitHub Issues, PRs, comments, commit SHAs and CI results are the common **asynchronous coordination record**. These observations do not prove direct machine-to-machine chat, persistent autonomy or a general-purpose anti-loop guarantee.
+
+**Public walkthrough and diagrams.** [Two Mermaid diagrams, evidence limits and sanitized case](docs/CASE_MULTI_AGENT_GITHUB.md).
+
+**Evidence.** Owner-visible screenshot and private GitHub PR/CI records; private code, links, screenshots and infrastructure are deliberately not reproduced in this public portfolio.
+
+**Limit.** AI agents authored major code changes; this is a coordination/QA example, not proof of self-written backend engineering, public deployment, financial benefit or zero-human operation.
