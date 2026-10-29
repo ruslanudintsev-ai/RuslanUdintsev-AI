@@ -41,8 +41,14 @@ def main():
                 assert not match or match.group(1) in PUBLIC_REPOS, f"potential private repo exposure: {sid}"
             else:
                 assert (ROOT / item).is_file(), f"missing local evidence: {item}"
-    assert (ROOT / "SKILLS.md").is_file()
-    assert (ROOT / "SKILLS.ru.md").is_file()
+    en = (ROOT / "SKILLS.md").read_text(encoding="utf-8")
+    ru = (ROOT / "SKILLS.ru.md").read_text(encoding="utf-8")
+    for skill in registry["skills"]:
+        assert f"**{skill['title_en']}**" in en, f"missing English skill row: {skill['id']}"
+        assert f"**{skill['title_ru']}**" in ru, f"missing Russian skill row: {skill['id']}"
+    for index in ("README.md", "README.ru.md"):
+        page = (ROOT / index).read_text(encoding="utf-8")
+        assert "SKILLS.md" in page and "SKILLS.ru.md" in page, f"missing profile skills navigation: {index}"
     print(f"OK: {len(ids)} skills; {len(groups)} categories; structural and link-hygiene validation passed")
     print("Reminder: this is not an independent skills verification.")
 
