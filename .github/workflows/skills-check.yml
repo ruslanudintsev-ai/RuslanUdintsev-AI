@@ -1,0 +1,38 @@
+name: Portfolio skills integrity
+
+on:
+  push:
+    paths:
+      - 'skills/**'
+      - 'SKILLS.md'
+      - 'SKILLS.ru.md'
+      - 'README.md'
+      - 'README.ru.md'
+      - 'scripts/check_skills.py'
+      - '.github/workflows/skills-check.yml'
+  pull_request:
+    paths:
+      - 'skills/**'
+      - 'SKILLS.md'
+      - 'SKILLS.ru.md'
+      - 'README.md'
+      - 'README.ru.md'
+      - 'scripts/check_skills.py'
+      - '.github/workflows/skills-check.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-skills:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out portfolio
+        uses: actions/checkout@v4
+      - name: Install Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate registry, links and bilingual pages
+        run: python scripts/check_skills.py
