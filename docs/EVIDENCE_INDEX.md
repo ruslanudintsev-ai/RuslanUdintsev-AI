@@ -20,6 +20,8 @@ This index separates **public evidence**, **operator-reported results**, and **p
 
 ## Executable, reproducible example
 
+**[Run the example yourself in 5 minutes — exact commands, expected results and a scope-break exercise](TRY_IT.md).**
+
 [Offline PR/CI evidence gate](../examples/pr-evidence-gate/README.md): a tiny Python standard-library demonstration with synthetic inputs and 13 tests. It checks claimed changed-file scope, required CI states and own-comment echoes, then **always requires a human release decision**. This is an AI-assisted prototype, not evidence of live autonomous deployment or independent Python production engineering.
 
 ## What I could show in a short, scoped practical exercise
