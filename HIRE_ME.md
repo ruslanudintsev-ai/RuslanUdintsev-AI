@@ -41,12 +41,12 @@ I have **11 years of service in the Russian fire/emergency response system**, al
 
 **My contribution:** reproduce and compare device/network behavior, coordinate scoped tests and verify a live result after HTTP/2 was enabled. **Evidence:** [public incident investigation](https://github.com/ruslanudintsev-ai/ios-cellular-nginx-http2-fix). **Limit:** a single technical root cause was not proven.
 
-### 3. Django catalogue recovery and QA
-**Task:** restore a static generator and verify the reproducibility of a large test build.
+### 3. KursoPilot — AI-assisted release of an education catalogue
+**Task:** make an Astro/TypeScript course catalogue useful and release a tightly scoped first set of public pages without publishing unsupported course facts.
 
-**My contribution:** steer recovery requirements and evaluate QA evidence. **Recorded result:** 217,184 rendered HTML test routes, 216,076 unique sitemap URLs. **Limit:** these are recovery-build checks, *not* a claim about public deployment, indexing or revenue. See [Case 03](CASE_STUDIES.md).
+**My contribution:** define scope and source-quality constraints, coordinate Gemini/Codex/ChatGPT, request CI/browser verification and approve a bounded release. **Recorded result (28 Oct 2026, operator report):** 10 pages eligible for search indexing, 29 noindex, post-deploy smoke **16/16 PASS**. **Limit:** public HTTP could not be independently checked in this review; actual search indexing, traffic and sales have not been established. [Case 10](CASE_STUDIES.md#case-10--kursopilot-agent-assisted-public-release-of-a-course-catalogue) · [KursoPilot](https://kursopilot.ru/).
 
-More work: [all 9 cases](CASE_STUDIES.md) · [project ecosystem](ECOSYSTEM.md).
+More work: [all 10 cases](CASE_STUDIES.md) · [project ecosystem](ECOSYSTEM.md).
 
 ## A realistic paid test task
 
