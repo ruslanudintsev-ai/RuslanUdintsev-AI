@@ -15,6 +15,7 @@ PAGES = (
     "CASE_STUDIES.md", "AGENT_OPERATIONS.md",
     "docs/EVIDENCE_INDEX.md", "docs/EVIDENCE_INDEX.ru.md",
     "docs/CASE_MULTI_AGENT_GITHUB.md",
+    "docs/INDEPENDENT_AGENT_REVIEW.md", "docs/INDEPENDENT_AGENT_REVIEW.ru.md",
 )
 MARKDOWN_LINK = re.compile(r"(?<!!)\[[^\]]+\]\(([^\s)]+)(?:\s+[^)]*)?\)")
 PUBLIC_OWNER_REPOS = {
