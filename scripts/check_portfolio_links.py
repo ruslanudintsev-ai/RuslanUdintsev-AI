@@ -16,6 +16,7 @@ PAGES = (
     "docs/EVIDENCE_INDEX.md", "docs/EVIDENCE_INDEX.ru.md",
     "docs/CASE_MULTI_AGENT_GITHUB.md",
     "docs/INDEPENDENT_AGENT_REVIEW.md", "docs/INDEPENDENT_AGENT_REVIEW.ru.md",
+    "docs/TRY_IT.md", "docs/TRY_IT.ru.md",
 )
 MARKDOWN_LINK = re.compile(r"(?<!!)\[[^\]]+\]\(([^\s)]+)(?:\s+[^)]*)?\)")
 PUBLIC_OWNER_REPOS = {
@@ -69,6 +70,8 @@ def main():
     assert f"{len(cases)} кейсов" in (ROOT / "README.ru.md").read_text(encoding="utf-8")
     assert "docs/EVIDENCE_INDEX.md" in (ROOT / "README.md").read_text(encoding="utf-8")
     assert "docs/EVIDENCE_INDEX.ru.md" in (ROOT / "README.ru.md").read_text(encoding="utf-8")
+    assert "docs/TRY_IT.md" in (ROOT / "README.md").read_text(encoding="utf-8")
+    assert "docs/TRY_IT.ru.md" in (ROOT / "README.ru.md").read_text(encoding="utf-8")
     print(f"OK: {len(cases)} consecutive cases, matching EN/RU entry points")
 
     print(f"OK: checked internal links and public-repo references in {len(PAGES)} pages")
