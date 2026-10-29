@@ -13,6 +13,8 @@ PAGES = (
     "HIRE_ME.md", "HIRE_ME.ru.md", "PROFILE_README.md",
     "ECOSYSTEM.md", "ECOSYSTEM.ru.md",
     "CASE_STUDIES.md", "AGENT_OPERATIONS.md",
+    "docs/EVIDENCE_INDEX.md", "docs/EVIDENCE_INDEX.ru.md",
+    "docs/CASE_MULTI_AGENT_GITHUB.md",
 )
 MARKDOWN_LINK = re.compile(r"(?<!!)\[[^\]]+\]\(([^\s)]+)(?:\s+[^)]*)?\)")
 PUBLIC_OWNER_REPOS = {
@@ -52,6 +54,22 @@ def main():
     assert "HIRE_ME.ru.md" in (ROOT / "README.ru.md").read_text(encoding="utf-8")
     assert "HIRE_ME.ru.md" in (ROOT / "HIRE_ME.md").read_text(encoding="utf-8")
     assert "HIRE_ME.md" in (ROOT / "HIRE_ME.ru.md").read_text(encoding="utf-8")
+    # A growing case library must not leave stale numeric promises in the landing pages.
+    cases = re.findall(
+        r"^## Case (\d{2}) — ",
+        (ROOT / "CASE_STUDIES.md").read_text(encoding="utf-8"),
+        flags=re.MULTILINE,
+    )
+    assert cases == [f"{i:02d}" for i in range(1, len(cases) + 1)], (
+        f"Case index numbering must be consecutive: {cases}"
+    )
+    assert len(cases) >= 1
+    assert f"{len(cases)} case studies" in (ROOT / "README.md").read_text(encoding="utf-8")
+    assert f"{len(cases)} кейсов" in (ROOT / "README.ru.md").read_text(encoding="utf-8")
+    assert "docs/EVIDENCE_INDEX.md" in (ROOT / "README.md").read_text(encoding="utf-8")
+    assert "docs/EVIDENCE_INDEX.ru.md" in (ROOT / "README.ru.md").read_text(encoding="utf-8")
+    print(f"OK: {len(cases)} consecutive cases, matching EN/RU entry points")
+
     print(f"OK: checked internal links and public-repo references in {len(PAGES)} pages")
     print("External link availability and private evidence were not independently verified.")
 

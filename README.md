@@ -1,22 +1,24 @@
-# Ruslan Udintsev
+# Ruslan Udintsev / Руслан Удинцев
 
-### AI Agent Operations · AI-assisted Development Coordination · Product & QA
+**AI Agent Operator · AI-assisted Development Coordination · Product QA**
 
-I turn business and product goals into **well-scoped tasks for AI coding agents**, coordinate parallel workstreams, and verify the outcome through GitHub, tests and release evidence.
+**100% remote only** · Open to suitable paid roles and scoped projects
 
-I am a **hands-on product owner / AI-agent operator**, not a self-described senior developer: I use Codex, ChatGPT, Gemini and other tools for implementation while taking responsibility for requirements, priorities, boundaries and acceptance.
+I turn a product goal into a **testable AI-assisted development workflow**: clear tasks for Codex/Gemini and other coding agents, GitHub PRs, CI checks and a human decision about release readiness.
 
-**Available for:** 100% remote AI Agent Operator · Junior AI Automation · AI Development Coordination · AI-assisted QA roles, including paid scoped projects. **No mandatory office/hybrid schedule.**
+**[Recruiter brief](HIRE_ME.md)** · **[Public evidence in 60 seconds](docs/EVIDENCE_INDEX.md)** · **[Русское портфолио](README.ru.md)** · **[11 case studies](CASE_STUDIES.md)**
 
-**[Hire me / recruiter brief](HIRE_ME.md)** · **[Русский](README.ru.md)** · **[Skill system](SKILLS.md)** · **[Project ecosystem](ECOSYSTEM.md)** · **[11 case studies](CASE_STUDIES.md)** · **[Agent workflow](AGENT_OPERATIONS.md)**
+### Three examples to inspect
 
-## For a hiring manager — what I can deliver
+| Work sample | Practical role and evidence |
+| --- | --- |
+| **[KursoPilot](https://kursopilot.ru/)** | Product goals, AI-agent coordination and QA for an education catalogue. First limited release **reported** on 28 Oct 2026; [scope and verification limits](CASE_STUDIES.md#case-10--kursopilot-agent-assisted-public-release-of-a-course-catalogue). |
+| **[iPhone / Nginx incident](https://github.com/ruslanudintsev-ai/ios-cellular-nginx-http2-fix)** | Real-device investigation and verification after an HTTP/2 configuration change; root cause remains unproven. |
+| **[Codex + Grok + Cursor via GitHub](docs/CASE_MULTI_AGENT_GITHUB.md)** | Coordinated task boundaries, PR review, exact-commit CI and human release gates; two diagrams, no claim of fully autonomous agent chat. |
 
-**Give me a bounded AI-assisted development task, and I can organize the work:** translate it into acceptance criteria, coordinate coding agents, review PRs and CI evidence, surface risks, and provide a clear handoff with what is verified versus still unproven.
+**What I personally do:** scope tasks, coordinate agents, run practical checks, review results and make product/acceptance decisions. **AI-assisted implementation is credited to the tools;** I do not claim independent senior Python/backend expertise.
 
-**Examples to inspect:** [KursoPilot — operator-reported public release](https://kursopilot.ru/) · [public Nginx incident investigation](https://github.com/ruslanudintsev-ai/ios-cellular-nginx-http2-fix) · [AI-agent operating playbook](AGENT_OPERATIONS.md) · [case studies with evidence limits](CASE_STUDIES.md).
-
-**I welcome a practical, scoped trial assignment.** I will state openly which parts I implement myself and which are delivered with AI coding agents.
+[Skills by evidence](SKILLS.md) · [How I work](AGENT_OPERATIONS.md) · [Full project map](ECOSYSTEM.md) · [Русская страница для работодателей](HIRE_ME.ru.md)
 
 ---
 
