@@ -8,7 +8,12 @@ on:
       - 'SKILLS.ru.md'
       - 'README.md'
       - 'README.ru.md'
+      - 'HIRE_ME.md'
+      - 'HIRE_ME.ru.md'
+      - 'ECOSYSTEM.md'
+      - 'ECOSYSTEM.ru.md'
       - 'scripts/check_skills.py'
+      - 'scripts/check_portfolio_links.py'
       - '.github/workflows/skills-check.yml'
   pull_request:
     paths:
@@ -17,7 +22,12 @@ on:
       - 'SKILLS.ru.md'
       - 'README.md'
       - 'README.ru.md'
+      - 'HIRE_ME.md'
+      - 'HIRE_ME.ru.md'
+      - 'ECOSYSTEM.md'
+      - 'ECOSYSTEM.ru.md'
       - 'scripts/check_skills.py'
+      - 'scripts/check_portfolio_links.py'
       - '.github/workflows/skills-check.yml'
   workflow_dispatch:
 
@@ -36,3 +46,5 @@ jobs:
           python-version: '3.12'
       - name: Validate registry, links and bilingual pages
         run: python scripts/check_skills.py
+      - name: Validate portfolio navigation and link privacy
+        run: python scripts/check_portfolio_links.py

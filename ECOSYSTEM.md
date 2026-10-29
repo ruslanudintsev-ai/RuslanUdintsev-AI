@@ -2,7 +2,7 @@
 
 [Portfolio](README.md) · [Русская версия](README.ru.md) · [Case studies](CASE_STUDIES.md) · [Agent operations](AGENT_OPERATIONS.md)
 
-> **Scope:** snapshot reviewed 29 October 2026. The GitHub account contains **26 repositories** (public and private), covering maintained products, prototypes, research, and archived work. **26 repositories does not mean 26 production products, 26 independently coded applications, or 26 profitable businesses.**
+> **Scope:** the earlier portfolio audit reviewed 26 repositories. A fresh connected GitHub listing on **29 October 2026** shows **36 accessible repositories**, including recently restored research archives. The added repositories have **not yet been individually validated**; this document covers only case-supported work. **36 repositories does not mean 36 deployed products, independently coded applications or profitable businesses.**
 >
 > Private repository details are deliberately summarized. Public websites are not proof that all features, claims, or integrations are currently live.
 

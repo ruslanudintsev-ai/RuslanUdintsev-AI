@@ -6,9 +6,9 @@ I turn business and product goals into **well-scoped tasks for AI coding agents*
 
 I am a **hands-on product owner / AI-agent operator**, not a self-described senior developer: I use Codex, ChatGPT, Gemini and other tools for implementation while taking responsibility for requirements, priorities, boundaries and acceptance.
 
-**Interested in:** AI Agent Operator · Junior AI Automation Specialist · AI Development Coordinator · AI-assisted QA · remote/project opportunities.
+**Available for:** 100% remote AI Agent Operator · Junior AI Automation · AI Development Coordination · AI-assisted QA roles, including paid scoped projects. **No mandatory office/hybrid schedule.**
 
-**[Русский](README.ru.md)** · **[Skill system](SKILLS.md)** · **[Project ecosystem](ECOSYSTEM.md)** · **[9 case studies](CASE_STUDIES.md)** · **[Agent workflow](AGENT_OPERATIONS.md)**
+**[Hire me / recruiter brief](HIRE_ME.md)** · **[Русский](README.ru.md)** · **[Skill system](SKILLS.md)** · **[Project ecosystem](ECOSYSTEM.md)** · **[9 case studies](CASE_STUDIES.md)** · **[Agent workflow](AGENT_OPERATIONS.md)**
 
 ## For a hiring manager — what I can deliver
 
@@ -24,9 +24,9 @@ I am a **hands-on product owner / AI-agent operator**, not a self-described seni
 
 | Portfolio | Agent operations | Public proof |
 | --- | --- | --- |
-| 26 GitHub repositories reviewed (including private, experimental and archived work) | Parallel Codex workstreams, scoped tasks, PR/CI review and release gates | [iPhone/Nginx field report](https://github.com/ruslanudintsev-ai/ios-cellular-nginx-http2-fix) · [OpenAI Codex product feedback](https://github.com/openai/codex/issues/40142#issuecomment-6492738160) |
+| Maintained products, experiments, private work and archives; newly restored repositories are under review | Parallel Codex workstreams, scoped tasks, PR/CI review and release gates | [iPhone/Nginx field report](https://github.com/ruslanudintsev-ai/ios-cellular-nginx-http2-fix) · [OpenAI Codex product feedback](https://github.com/openai/codex/issues/40142#issuecomment-6492738160) |
 
-*Repository count does not equal launched products, personal code authorship or business results. Snapshot: 29 October 2026.*
+*A prior reviewed inventory covered 26 repositories; the connected account now lists 36, including restored research repositories that are not yet individually verified (29 October 2026). Repository count is not proof of launched products, personally written code, or business results.*
 
 ## Skill system: what I can actually do
 
@@ -88,7 +88,7 @@ I do not equate using AI to generate code with independently mastering every par
 
 I can help scope and operate an AI-assisted development workflow: split a backlog into clear agent tasks, review execution evidence, identify blockers and prepare a release-readiness report.
 
-**Contact:** [GitHub profile](https://github.com/ruslanudintsev-ai) · [Portfolio repository](https://github.com/ruslanudintsev-ai/RuslanUdintsev-AI)
+**Work with me:** [Scope, role fit and evidence for hiring](HIRE_ME.md) · [Portfolio repository](https://github.com/ruslanudintsev-ai/RuslanUdintsev-AI)
 
 [Evidence & privacy policy](EVIDENCE_AND_PRIVACY.md) · [Русская версия портфолио](README.ru.md)
 
