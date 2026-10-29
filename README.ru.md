@@ -8,7 +8,7 @@
 
 **Рассматриваю только 100% удалённую работу:** AI Agent Operator · Junior AI Automation Specialist · координатор AI-разработки · AI-assisted QA. Постоянная или оплачиваемая проектная занятость; обязательный офис и гибрид не подходят.
 
-**[Предложение работодателю](HIRE_ME.ru.md)** · **[English](README.md)** · **[Система навыков](SKILLS.ru.md)** · **[Экосистема](ECOSYSTEM.ru.md)** · **[10 кейсов](CASE_STUDIES.md)** · **[Работа агентов](AGENT_OPERATIONS.md)**
+**[Предложение работодателю](HIRE_ME.ru.md)** · **[План публикации проектов](docs/PUBLICATION_PLAN.ru.md)** · **[English](README.md)** · **[Система навыков](SKILLS.ru.md)** · **[Экосистема](ECOSYSTEM.ru.md)** · **[10 кейсов](CASE_STUDIES.md)** · **[Работа агентов](AGENT_OPERATIONS.md)**
 
 ## Работодателю — какую задачу могу взять
 
