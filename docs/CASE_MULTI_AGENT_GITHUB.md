@@ -56,4 +56,6 @@ flowchart TD
 
 This example is relevant to **AI Agent Operations, AI-assisted QA and development coordination**: I can distinguish a request from an event echo, keep workstreams within agreed scope, ask for precise tests, inspect one commit's CI and report what remains unverified. The strongest evidence of engineering quality comes from reproducible tests and separate human acceptance — not from claims that several models are «chatting».
 
+Related quality-control practice: [independent builder/reviewer loop](INDEPENDENT_AGENT_REVIEW.md) · [по-русски](INDEPENDENT_AGENT_REVIEW.ru.md). This separate practice uses GitHub comments and does not imply autonomous cross-chat messaging.
+
 [← Back to case index](../CASE_STUDIES.md) · [How I work with coding agents](../AGENT_OPERATIONS.md)
