@@ -10,6 +10,14 @@ I am a **hands-on product owner / AI-agent operator**, not a self-described seni
 
 **[Русский](README.ru.md)** · **[Skill system](SKILLS.md)** · **[Project ecosystem](ECOSYSTEM.md)** · **[9 case studies](CASE_STUDIES.md)** · **[Agent workflow](AGENT_OPERATIONS.md)**
 
+## For a hiring manager — what I can deliver
+
+**Give me a bounded AI-assisted development task, and I can organize the work:** translate it into acceptance criteria, coordinate coding agents, review PRs and CI evidence, surface risks, and provide a clear handoff with what is verified versus still unproven.
+
+**Examples to inspect:** [public Nginx incident investigation](https://github.com/ruslanudintsev-ai/ios-cellular-nginx-http2-fix) · [AI-agent operating playbook](AGENT_OPERATIONS.md) · [case studies with evidence limits](CASE_STUDIES.md).
+
+**I welcome a practical, scoped trial assignment.** I will state openly which parts I implement myself and which are delivered with AI coding agents.
+
 ---
 
 ## My work at a glance
