@@ -4,7 +4,7 @@
 
 **Work format:** **100% remote only**. Open to paid, well-scoped project assignments and suitable full-time roles. An office-based or mandatory hybrid schedule is not a match.
 
-[Portfolio](README.md) · [Русская версия](HIRE_ME.ru.md) · [Case studies](CASE_STUDIES.md) · [Agent workflow](AGENT_OPERATIONS.md) · [Skill levels](SKILLS.md)
+[Portfolio](README.md) · **[60-second public evidence](docs/EVIDENCE_INDEX.md)** · [Русская версия](HIRE_ME.ru.md) · [11 cases](CASE_STUDIES.md) · [Agent workflow](AGENT_OPERATIONS.md) · [Skill levels](SKILLS.md)
 
 ## What I can help deliver
 
