@@ -56,7 +56,7 @@ def main():
     assert "HIRE_ME.md" in (ROOT / "HIRE_ME.ru.md").read_text(encoding="utf-8")
     # A growing case library must not leave stale numeric promises in the landing pages.
     cases = re.findall(
-        r"^## Case (\\d{2}) — ",
+        r"^## Case (\d{2}) — ",
         (ROOT / "CASE_STUDIES.md").read_text(encoding="utf-8"),
         flags=re.MULTILINE,
     )
