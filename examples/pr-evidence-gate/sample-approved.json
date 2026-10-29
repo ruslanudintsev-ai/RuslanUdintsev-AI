@@ -1,0 +1,35 @@
+{
+  "pr_number": 42,
+  "commit": "0123456789abcdef0123456789abcdef01234567",
+  "actor": "cursor[bot]",
+  "allowed_paths": [
+    "docs/",
+    "src/seo/"
+  ],
+  "changed_files": [
+    "docs/readme.md",
+    "src/seo/sitemap.py"
+  ],
+  "checks": [
+    {
+      "name": "Unit tests",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Static validation",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "events": [
+    {
+      "kind": "comment",
+      "author": "cursor[bot]"
+    },
+    {
+      "kind": "comment",
+      "author": "reviewer"
+    }
+  ]
+}

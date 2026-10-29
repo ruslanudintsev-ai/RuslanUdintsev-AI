@@ -14,6 +14,10 @@ This index separates **public evidence**, **operator-reported results**, and **p
 | **Educational reinforcement-learning experiments** | [Public DQN learning repository](https://github.com/ruslanudintsev-ai/dqn-beginner-rainbow-trading) · [Case 06](../CASE_STUDIES.md#case-06--research-discipline-knowing-when-to-stop) | Educational work, not a proven profitable trading model. |
 | **Developer-tool feedback** | [Published OpenAI Codex feature comment](https://github.com/openai/codex/issues/40142#issuecomment-6492738160) · [Case 08](../CASE_STUDIES.md#case-08--improving-the-developer-workflow-through-product-feedback) | Public suggestion, not product endorsement, employment or inclusion on a roadmap. |
 
+## Executable, reproducible example
+
+[Offline PR/CI evidence gate](../examples/pr-evidence-gate/README.md): a tiny Python standard-library demonstration with synthetic inputs and 13 tests. It checks claimed changed-file scope, required CI states and own-comment echoes, then **always requires a human release decision**. This is an AI-assisted prototype, not evidence of live autonomous deployment or independent Python production engineering.
+
 ## What I could show in a short, scoped practical exercise
 
 1. **Input:** a bounded repository task and explicit definition of done.
