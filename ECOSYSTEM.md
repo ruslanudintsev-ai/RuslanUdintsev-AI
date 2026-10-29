@@ -17,6 +17,7 @@ My role across the portfolio is generally **product owner / AI-agent coordinator
 | **OSAGO catalogue recovery** | Rebuilding and validating a large Django/static route generator; sitemap and canonical checks | Recovery QA evidence; **not** a claim that all generated pages are deployed/indexed |
 | **BFA catalogue experiment** | Content templates, price provenance constraints, local/staging vs public separation | Experiment / release preparation; staging is not a public SEO launch |
 | **KursoPilot** — education-course comparisons | Structured course records, source attribution, editorial gating, Astro/TypeScript | Development / pre-launch; publication not established |
+| **Historical pet-food content websites** | Owner-reported automated population of niche content sites; archived articles from 2024 and later full-autopilot design work | Discontinued / historical; original automation mechanism and coverage not independently verified |
 | **Related information sites** | Multi-site CI discipline, SEO research, content maintenance, and release coordination | Mixed maturity; individual results require separate evidence |
 | **Multilingual content catalogue** | Route parity, localization, media inventories and static publishing workflows | Project-specific production/preview scopes; no traffic or revenue claim here |
 
