@@ -25,6 +25,11 @@ This repository is a **public professional portfolio**, not a development or dep
 
 ## Profile navigation
 
+- GitHub renders the canonical `README.md` on the account overview; `PROFILE_README.md` is only a legacy pointer and must not be treated as a second active profile.
+- Recruiter proof index: `docs/EVIDENCE_INDEX.md` and `docs/EVIDENCE_INDEX.ru.md`; keep factual status boundaries and navigation in both languages.
+- Keep the first screen short and evidence-first; no invented achievements or unsupported availability/salary claims.
+
+
 - English landing: `README.md`
 - Russian landing: `README.ru.md`
 - English project map: `ECOSYSTEM.md`
