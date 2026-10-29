@@ -27,6 +27,7 @@ This repository is a **public professional portfolio**, not a development or dep
 
 - GitHub renders the canonical `README.md` on the account overview; `PROFILE_README.md` is only a legacy pointer and must not be treated as a second active profile.
 - Recruiter proof index: `docs/EVIDENCE_INDEX.md` and `docs/EVIDENCE_INDEX.ru.md`; keep factual status boundaries and navigation in both languages.
+- Reproducible test-drive pages: `docs/TRY_IT.md` and `docs/TRY_IT.ru.md`; keep commands, expected fixture outcomes and caveats aligned with `examples/pr-evidence-gate/triage.py`.
 - Keep the first screen short and evidence-first; no invented achievements or unsupported availability/salary claims.
 
 

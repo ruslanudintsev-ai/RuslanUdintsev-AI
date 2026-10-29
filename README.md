@@ -6,19 +6,19 @@
 
 I turn a product goal into a **testable AI-assisted development workflow**: clear tasks for Codex/Gemini and other coding agents, GitHub PRs, CI checks and a human decision about release readiness.
 
-**[Recruiter brief](HIRE_ME.md)** · **[Public evidence in 60 seconds](docs/EVIDENCE_INDEX.md)** · **[Русское портфолио](README.ru.md)** · **[11 case studies](CASE_STUDIES.md)**
+**[Try a runnable demo in 5 minutes](docs/TRY_IT.md)** · **[Public evidence in 60 seconds](docs/EVIDENCE_INDEX.md)** · [Русская версия](README.ru.md) · [11 case studies](CASE_STUDIES.md) · [Recruiter brief](HIRE_ME.md)
 
-### Three examples to inspect
+### Four ways to verify the work
 
 | Work sample | Practical role and evidence |
 | --- | --- |
-| **[KursoPilot](https://kursopilot.ru/)** | Product goals, AI-agent coordination and QA for an education catalogue. First limited release **reported** on 28 Oct 2026; [scope and verification limits](CASE_STUDIES.md#case-10--kursopilot-agent-assisted-public-release-of-a-course-catalogue). |
+| **[Offline PR/CI evidence gate](docs/TRY_IT.md)** | Public Python example with invented inputs, two distinct decisions and 13 unit tests; [run it yourself](docs/TRY_IT.md) without tokens or private access. |\n| **[KursoPilot](https://kursopilot.ru/)** | Product goals, AI-agent coordination and QA for an education catalogue. First limited release **reported** on 28 Oct 2026; [scope and verification limits](CASE_STUDIES.md#case-10--kursopilot-agent-assisted-public-release-of-a-course-catalogue). |
 | **[iPhone / Nginx incident](https://github.com/ruslanudintsev-ai/ios-cellular-nginx-http2-fix)** | Real-device investigation and verification after an HTTP/2 configuration change; root cause remains unproven. |
 | **[Codex + Grok + Cursor via GitHub](docs/CASE_MULTI_AGENT_GITHUB.md)** | Coordinated task boundaries, PR review, exact-commit CI and human release gates; two diagrams, no claim of fully autonomous agent chat. |
 
 **What I personally do:** scope tasks, coordinate agents, run practical checks, review results and make product/acceptance decisions. **AI-assisted implementation is credited to the tools;** I do not claim independent senior Python/backend expertise.
 
-[**Independent AI-chat review playbook**](docs/INDEPENDENT_AGENT_REVIEW.md) — real human-coordinated builder/reviewer feedback loop (sanitized, private evidence) · [Runnable offline PR/CI triage demo](examples/pr-evidence-gate/README.md) (synthetic inputs, 13 tests; not a live release gate).
+[Independent builder/reviewer QA practice](docs/INDEPENDENT_AGENT_REVIEW.md) · [Source and limitations of the offline demo](examples/pr-evidence-gate/README.md). The demo is synthetic and **never authorizes a real release**.
 
 [Skills by evidence](SKILLS.md) · [How I work](AGENT_OPERATIONS.md) · [Full project map](ECOSYSTEM.md) · [Русская страница для работодателей](HIRE_ME.ru.md)
 
@@ -63,10 +63,11 @@ I turn a product goal into a **testable AI-assisted development workflow**: clea
 flowchart LR
     U["Goal & constraints"] --> P["Agent-ready task brief"]
     P --> A["Specialized AI agents"]
-    A --> G["GitHub PR + CI"]
-    G --> Q{"Evidence sufficient?"}
-    Q -->|No| P
-    Q -->|Yes| R["Approved release path"]
+    A --> G["Draft PR + CI evidence"]
+    G --> Q["Independent review when appropriate"]
+    Q --> D{"Owner accepts the evidence?"}
+    D -->|No: revise| P
+    D -->|Explicit yes| R["Scoped release / handoff"]
 ```
 
 I prefer measurable acceptance criteria, separate worktrees for independent agents, a documented source of truth, and visible failure reports. **A generated change, a passing test, a merged PR and a production release are different states.**

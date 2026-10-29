@@ -50,6 +50,8 @@ More work: [all 11 cases](CASE_STUDIES.md) · [GitHub agent coordination and dia
 
 ## A realistic paid test task
 
+**Before any meeting, you can [run my public 5-minute PR/CI demo](docs/TRY_IT.md)** with fictional inputs and read its limitations. It is a small illustrative sample, not proof of a real GitHub release.
+
 For a small repository or bounded feature, I can provide:
 
 - A brief with scope, non-goals and acceptance criteria.
