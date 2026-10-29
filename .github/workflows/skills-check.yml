@@ -8,6 +8,10 @@ on:
       - 'SKILLS.ru.md'
       - 'README.md'
       - 'README.ru.md'
+      - 'HIRE_ME.md'
+      - 'HIRE_ME.ru.md'
+      - 'ECOSYSTEM.md'
+      - 'ECOSYSTEM.ru.md'
       - 'scripts/check_skills.py'
       - '.github/workflows/skills-check.yml'
   pull_request:
@@ -17,6 +21,10 @@ on:
       - 'SKILLS.ru.md'
       - 'README.md'
       - 'README.ru.md'
+      - 'HIRE_ME.md'
+      - 'HIRE_ME.ru.md'
+      - 'ECOSYSTEM.md'
+      - 'ECOSYSTEM.ru.md'
       - 'scripts/check_skills.py'
       - '.github/workflows/skills-check.yml'
   workflow_dispatch:
