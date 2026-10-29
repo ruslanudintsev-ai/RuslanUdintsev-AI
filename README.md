@@ -8,7 +8,7 @@ I am a **hands-on product owner / AI-agent operator**, not a self-described seni
 
 **Interested in:** AI Agent Operator · Junior AI Automation Specialist · AI Development Coordinator · AI-assisted QA · remote/project opportunities.
 
-**[Русский](README.ru.md)** · **[Skill system](SKILLS.md)** · **[Project ecosystem](ECOSYSTEM.md)** · **[8 case studies](CASE_STUDIES.md)** · **[Agent workflow](AGENT_OPERATIONS.md)**
+**[Русский](README.ru.md)** · **[Skill system](SKILLS.md)** · **[Project ecosystem](ECOSYSTEM.md)** · **[9 case studies](CASE_STUDIES.md)** · **[Agent workflow](AGENT_OPERATIONS.md)**
 
 ---
 
@@ -40,8 +40,9 @@ I am a **hands-on product owner / AI-agent operator**, not a self-described seni
 | **AI Telegram product** | Design strict AI-call validation, fake-mode testing, cost and privacy safeguards | End-to-end acceptance in **fake mode**; no claim of paid music launch |
 | **Source-aware content** | Separate verified facts, draft records and publication gates | KursoPilot and related experiments; no unsupported publication claims |
 | **Research integrity** | Preserve negative evidence and stop AI/ML experiments without sufficient signal | Paused LLM trading research; [public educational DQN experiments](https://github.com/ruslanudintsev-ai/dqn-beginner-rainbow-trading) |
+| **Historical content automation** | Operated earlier pet-food websites with owner-reported automated content filling | Historical 2024 publications; original pipeline source/coverage not independently verified |
 
-[**Read all eight detailed cases →**](CASE_STUDIES.md)
+[**Read all nine detailed cases →**](CASE_STUDIES.md)
 
 ## My operating model
 
